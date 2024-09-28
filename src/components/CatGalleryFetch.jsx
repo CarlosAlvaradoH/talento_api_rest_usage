@@ -62,26 +62,4 @@ export const CatGalleryFetch = () => {
       </div>
     </div>
   );
-// return (
-//     <div className='container mt-5'>
-//       <h2 className='text-center text-white mb-4'>Galería de Gatitos con Fetch</h2>
-//       {/* Agregamos un contenedor scroll y altura fija */}
-//       <div className='row overflow-auto vh-80' style={{ maxHeight: '80vh', overflowY: 'scroll'}}>
-        
-//           {cats.map((cat, index) => (
-//             <div className='col-md-4 mb-4' key={index} >
-//               <div className='card h-100 d-flex flex-column'>
-//                 <img src={cat.url} className='card-img-top img-fluid object-fit-cover' alt="Cat" />
-//                 <div className='card-body'>
-//                   <h5 className='card-title'>Gatito {index + 1}</h5>
-//                   <p className='card-text'>¡Un lindo Gatito de nuestra galería!</p>
-//                 </div>
-//               </div>
-//             </div>
-
-//           ))}
-
-//       </div>
-//     </div>
-//   );
 }
